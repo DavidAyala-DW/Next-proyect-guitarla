@@ -17,7 +17,7 @@ function About() {
                 
                 <div className="px-6 flex flex-col space-y-5 md:grid md:grid-cols-2 md:gap-x-10">
 
-                    <Image layout="responsive" width={600} height={400} src={"/img/nosotros.jpg"} />
+                    <Image layout="responsive" width={600} height={400} src={"/img/nosotros.jpg"}  alt="nosotros.jpg"/>
                     
                     <div className="flex flex-col justify-center font-semibold space-y-5">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo laborum aperiam nesciunt repellendus beatae voluptas repellat quae, libero accusamus delectus, deleniti esse qui perspiciatis recusandae dolorum culpa veniam impedit incidunt? Quo laborum aperiam nesciunt repellendus beatae voluptas repellat quae, libero accusamus delectus, deleniti esse qui perspiciatis recusandae dolorum culpa veniam impedit incidunt?</p>

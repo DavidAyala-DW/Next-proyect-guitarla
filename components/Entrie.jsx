@@ -45,7 +45,7 @@ function Entrie({entrie}) {
 
                 </div>
 
-                <Link href={`/blog/${url}`}>
+                <Link href={`/blog/${url}`} passHref >
 
                     <button 
                         type='button'

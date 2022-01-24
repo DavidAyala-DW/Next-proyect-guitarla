@@ -18,13 +18,17 @@ function NotFoundPage() {
                         width={600} 
                         height={400} 
                         src={"/img/404.svg"} 
+                        alt='404 image'
                     />
 
                 </div>
 
-                <h1 className='text-black font-semibold text-xl text-center'>The requested page doesn't exist or you don't have access to it.</h1>
+                <h1 
+                    className='text-black font-semibold text-xl text-center'
+                >The requested page doesn&apos;t exist or you don&apos;t have access to it.
+                </h1>
 
-                <Link href={`/`}>
+                <Link href={`/`} passHref>
 
                     <button 
                         type='button'

@@ -47,7 +47,7 @@ function ProductList({products,homepage=false}) {
 
                     <div className='ml-auto px-5'>
 
-                        <Link href={`/store`}>
+                        <Link href={`/store`} passHref>
             
                             <button 
                                 type='button'

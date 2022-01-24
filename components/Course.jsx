@@ -17,7 +17,7 @@ function Course({course}) {
                     <h3 className='text-primary font-bold text-3xl text-center'>{title}</h3> 
                     <p className='text-white text-center font-semibold '>{content}</p>
 
-                    <Link href={`/`}>
+                    <Link href={`/`} passHref>
 
                             <button 
                                 type='button'

@@ -52,7 +52,7 @@ function EntriesList({entries,homepage=false}) {
 
                     <div className='ml-auto px-5'>
 
-                        <Link href={`/blog`}>
+                        <Link href={`/blog`} passHref>
             
                             <button 
                                 type='button'

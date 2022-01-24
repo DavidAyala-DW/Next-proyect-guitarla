@@ -12,7 +12,7 @@ function Header({guitar}) {
 
                 <div className="md:max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
 
-                    <Link href="/">
+                    <Link href="/" passHref>
                         
                         <a>
                             <Image width={400} height={100} src="/img/logo.svg"  alt="logo.svg" />
@@ -50,7 +50,7 @@ function Header({guitar}) {
 
                                 <p className="text-primary font-bold text-4xl">${guitar.price}</p>
 
-                                <Link href={`/store/${guitar.url}`}>
+                                <Link href={`/store/${guitar.url}`} passHref>
                                     <button 
                                         type='button'
                                         className='

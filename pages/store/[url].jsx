@@ -13,7 +13,7 @@ function ProductInfo({product}) {
 
             <Product product={product} productPage />
 
-            <Link href={"/store"}>
+            <Link href={"/store"} passHref>
 
                 <button
                     type='button'

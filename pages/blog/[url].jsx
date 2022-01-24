@@ -49,7 +49,7 @@ function EntrieContent({entrie}) {
                         {content}
                     </div>
 
-                    <Link href={"/blog"}>
+                    <Link href={"/blog"} passHref>
 
                         <button
                             type='button'

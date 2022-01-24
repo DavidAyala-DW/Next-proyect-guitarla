@@ -14,6 +14,7 @@ function DontFound({image,text}) {
                     width={600} 
                     height={400} 
                     src={image} 
+                    alt='DontFound.svg'
                 />
 
             </div>

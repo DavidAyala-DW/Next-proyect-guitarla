@@ -74,7 +74,7 @@ function Product({product, productPage = false}) {
 
                     ) : (
 
-                        <Link href={`/store/${url}`}>
+                        <Link href={`/store/${url}`} passHref>
 
                             <button 
                                 type='button'
