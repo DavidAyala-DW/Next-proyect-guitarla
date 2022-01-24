@@ -3,7 +3,7 @@ import React from 'react';
 import DontFound from '../components/DontFound';
 import Entrie from '../components/Entrie';
 
-function EntriesList({entries,homepage=false}) {
+function EntriesList({entries=[],homepage=false}) {
 
     return (
         

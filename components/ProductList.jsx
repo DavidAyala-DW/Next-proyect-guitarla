@@ -3,7 +3,7 @@ import React from 'react';
 import DontFound from './DontFound';
 import Product from './Product';
 
-function ProductList({products,homepage=false}) {
+function ProductList({products=[],homepage=false}) {
 
     return (
 

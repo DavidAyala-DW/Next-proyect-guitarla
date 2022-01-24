@@ -17,18 +17,16 @@ function Course({course}) {
                     <h3 className='text-primary font-bold text-3xl text-center'>{title}</h3> 
                     <p className='text-white text-center font-semibold '>{content}</p>
 
-                    <Link href={`/`} passHref>
 
-                            <button 
-                                type='button'
-                                className='
-                                    outline-none bg-transparent border-primary border text-white font-bold
-                                    uppercase text-center px-6 py-2 max-w-max mx-auto mt-10 hover:bg-primary
-                                    transition-colors duration-150 ease-in-out
-                                '
-                            >
-                                More Information
-                            </button>
+
+                    <Link href={`/about`} passHref>
+
+                        <button 
+                            type='button'
+                            className='outline-none bg-transparent border-primary border text-white font-bold uppercase text-center px-6 py-2 max-w-max mx-auto mt-10 hover:bg-primary transition-colors duration-150 ease-in-out'
+                        >
+                            See Product
+                        </button>
 
                     </Link>
 
