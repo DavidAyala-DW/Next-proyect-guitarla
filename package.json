@@ -6,6 +6,7 @@
     "build": "next build",
     "export" : "next export",
     "start": "next start",
+    "deploy": "npm run build && npm run export",
     "lint": "next lint",
     "tailwind-dev": "npx tailwindcss -i ./src/tailwind.css -o ./styles/globals.css --watch"
   },
